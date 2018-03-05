@@ -1,0 +1,74 @@
+a{text-decoration: none;color: #666;}
+body{background-color: #f5f8fd;}
+.inner{margin: 0 auto;width: 1180px;}
+img{margin: 0 auto;}
+.header{z-index: 4;}
+.details_Banner{width: 1920px;height: 500px;margin: 0 auto;position: relative;}
+.bannerBackgroundpic{position: absolute;}
+.bannerBackgroundpic:nth-child(1){width: 100%;height: 100%;background: url(../images/destails_07_a_2.jpg);background-size: cover;display: none;}
+.bannerBackgroundpic:nth-child(2){width: 100%;height: 100%;background: url(../images/bannerBig_pic.png);background-size: cover;}
+.bannerBackgroundpic:nth-child(3){width: 100%;height: 100%;background: url(../images/destails_07_a_9.jpg);background-size: cover;display: none;}
+
+.banner_Btn_left,.banner_Btn_reft{position: absolute;width: 65px;height: 65px;border-radius: 50%;background-color: pink;border: none;top: 50%;left: 100px;cursor: pointer;background: url(../images/leftRight.png)no-repeat;display: none;outline:none}
+.banner_Btn_reft{left: auto;right: 100px;background-position-x: -1697px;}
+
+.banner_List {position: absolute;top: 450px;left: 863px;}
+.banner_List li{float: left;width: 10px;height: 10px;border-radius: 50%;background-color: #fff;margin-right: 34px;cursor: pointer;}
+
+.banner_List .ac{background-color: #df0046;}
+/*.banner_List li:hover{background-color: red;}*/
+
+.datails_Main1{position: relative;}
+.datails_Main1 h4{color: #7d7d7d;font-size: 18px;height: 81px;line-height: 81px;}
+.datails_Main1 h4 span{font-family: consolas;font-size: 19px;line-height: 81px;height: 81px;font-weight: normal;color: #b6babd;padding: 0 3px;}
+.main_Our{position: absolute;top: 85px;left: 470px;}
+.main_Our h2{color: #55565b;height: 33px;line-height: 33px;}
+.main_Our p{color: #6b727a;height: 22px;line-height: 22px;margin-bottom: 10px;}
+.main_Our i{display: block;width: 34px;border: 1px solid #070707;margin-left: 39px;}
+.ul_List{margin: 115px 0 20px 100px;}
+.ul_List a{width: 43px;line-height: 43px;font-size: 17px;color: #343233;margin: 0 16px}
+.ul_List i{font-style: normal;font-size: 20px;color: #333;}
+.ul_List span{color: #dd0149;}
+.ul_List a:hover{color: red;}
+.search{width: 910px;height: 40px;border: 1px solid #f3f3f3;border-radius: 20px;background-color: #fff;position: relative;margin: 40px 0;}
+.search i{font-style: normal;line-height: 40px;height: 40px;position: absolute;}
+.search i:nth-child(1){color:  #dd0149;left: 36px;}
+.search i:nth-child(2){left: 125px;border-left: 1px solid #f3f3f3;padding-left: 10px;}
+.search i:nth-child(3){right: 16px;}
+.search .inPut{width: 210px;height: 40px;border: 1px solid #f3f3f3;border-radius: 20px;background-color: #fff;position:absolute;top: 0;right: -268px;padding-left: 20px;color: #b4b4b4;}
+.search .btn{width: 40px;height: 40px;background-color: red;border-radius: 50%;position: absolute;top: 0;right: -266px;border: none;background: url(../images/destails_07_a2.jpg)no-repeat;background-position: 2px 10px;cursor: pointer;outline:none}
+.main2_Ulist li,.main3_Ulist li{width: 280px;height: 385px;float: left;position: relative;border-radius: 21px;background-color: #fff;margin:0 20px 20px 0;}
+.main2_Ulist li:nth-child(4),.main2_Ulist li:nth-child(8){margin-right: 0;}
+.main2_Ulist li .mask, .main3_Ulist li .mask{width: 280px;height: 282px;background: rgba(0,0,0,.5);position: absolute;top:0;left: 0;display: none;border-radius: 14px 14px 0 0;}
+.main2_Ulist li:hover .mask{display: block;}
+.main3_Ulist li:hover .mask{display: block;}
+.main2_Ulist li h3,.main3_Ulist li h3{height: 32px;line-height: 12px;font-weight:500;margin: 20px 0 0 28px;color: #1e1e1e;}
+.main2_Ulist li p,.main3_Ulist li p{height: 27px;height: 27px;margin-left: 28px;color: #9c9c9c;}
+.main2_Ulist li span,.main3_Ulist li span{background: url(../images/shopp_main3_24.jpg)no-repeat;width: 17px;height: 11px;display: block;position: absolute;bottom: 31px;right: 31px;cursor: pointer;}
+.datails_Main3{margin-top: 130px;position: relative;}
+.main3_Ulist li:nth-child(4){margin-right: 0;}
+.main3_Box h2{color: #55565b;height: 33px;line-height: 33px;position: absolute;top: -47px;left: 0;}
+.main3_Box .ulList{position: absolute;top: -118px;right: 60px;background-color: #FFF;border: 1px solid #f3f3f3;}
+.main3_Box .ulList li{float: left;width: 40px;height: 40px;border-left: 1px solid #f3f3f3;text-align: center;line-height: 40px;cursor: pointer;}
+.main3_Box .ulList .ac{background-color: #de0049;color: #fff;}
+.butList1,.butList2{background-color: #FFF;position: absolute;top: -118px;right: 21px;width: 40px;height: 42px;border: 1px solid #f3f3f3;text-align: center;line-height: 40px;cursor: pointer;font-family: consolas;font-size: 19px;color: red;outline:none}
+.butList1{right: 265px;}
+.butList1:hover,.butList2:hover{background-color: #D2DBF4;color: #fff;}
+.details_Banner2{width: 1920px;height: 372px;margin: 0 auto;background-image: url(../images/destails_07_a_2a.png);position: relative;}
+.writtenWords{position: absolute;top: 70px;right: 428px;}
+.writtenWords h1{color: #dd0441;line-height: 52px;font-weight: 400;font-size: 54px;margin-bottom: 20px;}
+.writtenWords p{line-height: 21px;font-size: 14px;font-style:oblique;margin-left: 128px;}
+.writtenWords p:nth-child(3){margin-left: 146px;}
+.writtenWords button{margin:6px 0 0 154px;width: 186px;height: 42px;background-color: #de0049;border: none;border-radius: 20px;font-size: 18px;color: #fff;line-height: 42px;cursor: pointer;}
+.detailsBotton{height: 367px;background-color: #fff;position: relative;}
+.detailsBotton span{width: 2px;height:367px;background-color: #d8d8d8;display: block;float: left;margin-right: 200px;}
+.detailsBotton span:nth-child(1){margin-left: 186px;}
+.detailsBotton span:nth-child(5){margin-right: 0;}
+.detailsBotton ul{position: absolute;top: 66px;left: 303px;background-color: #fff;}
+.detailsBotton ul li{float: left;height: 142px;margin-right: 27px;background:url(../images/pic_little.png)no-repeat;background-position: 60px 20px ;padding-top: 98px;text-align: center;width: 176px;line-height: 22px;cursor: pointer;}
+.detailsBotton ul li:nth-child(1){margin-left: 157px;}
+.detailsBotton ul li:nth-child(2){background-position-x: -143px;}
+.detailsBotton ul li:nth-child(3){background-position-x: -346px;}
+.detailsBotton ul li:nth-child(4){background-position-x: -549px;}
+.detailsBotton ul li:nth-child(5){background-position-x: -752px;}
+.detailsBotton ul li p:nth-child(1){color:#de0049 ;line-height: 30px;font-size: 20px;}
